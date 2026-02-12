@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ROXO777 | Portfolio</title>
+
+  <style>
+
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+</script>
+
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #ffffff;
+      color: #8b0000;
+      overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 30px;
+      background: #8b0000;
+      color: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+
+    nav h2 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search-box {
+      padding: 8px 12px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .search-btn {
+      background: #ffffff;
+      color: #8b0000;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .menu {
+      cursor: pointer;
+      font-size: 26px;
+    }
+
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+
+    header h1 {
+<img src="logo.png" alt="ROXO Logo" style="width: 150px; margin-bottom: 20px;">
+
+      font-size: 50px;
+      font-weight: 900;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      font-size: 20px;
+      font-weight: 700;
+      color: #b22222;
+      letter-spacing: 1.5px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #8b0000;
+      letter-spacing: 2px;
+      border-bottom: 2px solid #8b0000;
+      display: inline-block;
+      padding-bottom: 6px;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 28px;
+      border-radius: 18px;
+      margin-bottom: 35px;
+      box-shadow: 0 0 25px rgba(139,0,0,0.25);
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #ffffff;
+      background: #8b0000;
+    }
+
+    .email {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+  <div style="display: flex; align-items: center; gap: 12px;">
+    <img src="logo.png" alt="ROXO Logo" style="height: 40px;">
+    <h2>ROXO777</h2>
+  </div>
+
+  <div class="nav-right">
+    <input type="text" class="search-box" placeholder="Search..." />
+    <button class="search-btn">🔍</button>
+    <div class="menu" onclick="toggleMenu()">☰</div>
+
+  </div>
+</nav>
+
+  <!-- HEADER -->
+  <header>
+<img src="logo.png" alt="ROXO Logo" style="width: 150px; margin-bottom: 20px;">
+
+    <h1>ROXO777</h1>
+    <p>Student | Designer | Creative Thinker</p>
+  </header>
+
+  <!-- CONTENT -->
+  <section>
+<h2>Downloads</h2>
+
+<div class="card">
+  <h3>MOND – Rainmeter Skin</h3>
+  <p>
+    A minimal and modern Rainmeter skin designed for a clean desktop setup.
+    Perfect for customization lovers.
+  </p>
+
+  <a href="downloads/mond.rmskin" download
+     style="display:inline-block; margin-top:10px; padding:10px 18px;
+     background:#8b0000; color:white; text-decoration:none;
+     border-radius:20px; font-weight:700;">
+    ⬇ Download Skin
+  </a>
+</div>
+
+<div class="card">
+  <h3>Rainmeter Software</h3>
+  <p>
+    Rainmeter is a desktop customization tool that allows you to add
+    widgets, skins, and system monitors to your Windows desktop.
+  </p>
+
+  <a href="downloads/Rainmeter-4.5.23.exe" download
+     style="display:inline-block; margin-top:10px; padding:10px 18px;
+     background:#8b0000; color:white; text-decoration:none;
+     border-radius:20px; font-weight:700;">
+    ⬇ Download Rainmeter
+  </a>
+</div>
+
+
+<h2>Featured Artwork</h2>
+
+<div class="card">
+  <img src="spiderman.jpg" alt="Spider-Man Artwork"
+       style="width:100%; border-radius:15px; margin-bottom:15px;">
+
+  <p style="font-size:16px; line-height:1.6; color:#8b0000; font-weight:600;">
+     Spider-Man artwork inspired by marvel.
+    This piece focuses on lighting, texture detail, and mood to create
+    a powerful, heroic atmosphere.
+  </p>
+</div>
+
+
+
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am ROXO777, a student passionate about designing, creativity,
+        and visual storytelling. I enjoy building clean, bold, and modern
+        digital experiences.
+      </p>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Creative Designing</li>
+        <li>Visual & UI Design</li>
+        <li>Concept Art & Layout</li>
+        <li>Gaming-style Design Sense</li>
+        <li>Quick Learner</li>
+      </ul>
+    </div>
+<h2>My Work Video</h2>
+<div class="card">
+  <video controls width="100%" style="border-radius: 15px;">
+    <source src="3D Architecture presentation new.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+ <p style="font-size:16px; line-height:1.6; color:#8b0000; font-weight:600;">
+     my canva work 3d designing how is it??.
+    This video focuses on my presntation, like it and comment your reviews,i can create more like this, by rohit.
+  </p>
+</div>
+
+
+</div>
+
+
+    <h2>Career Objective</h2>
+    <div class="card">
+      <p>
+        To build a strong career in the creative and design industry,
+        combining innovation, modern UI, and strong visual identity.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 ROXO777 | rohitchandrasekaran
+    <div class="email">
+      📧 rohitchandrasekaran777@gmail.com
+    </div>
+  </footer>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+</script>
+
+</body>
+</html>
